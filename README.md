@@ -1,69 +1,83 @@
-# Tic Tac Toe Game using Artificial Intelligence
-## Project Overview
-This project is a simple Tic Tac Toe game built using Python. In this game, a human player
-competes against an AI opponent. The AI is designed in such a way that it always tries to
-make the best possible move using a decision-making method called the Minimax algorithm.
-The goal of this project is to show how basic Artificial Intelligence can be used in games.
-Even though Tic Tac Toe is a small game, it helps in understanding how machines can think
-and make decisions.
-## Problem Statement
-The main idea behind this project is to create a game where the user can play against a
-computer that does not make random moves, but instead plays intelligently. The challenge is
-to design an AI that can analyze the game and choose the best move every time.
-## Requirements
-To run this project, you need:
-- Python 3 installed on your system
-- A code editor like Visual Studio Code (optional but recommended)
-No extra libraries or installations are required because the program uses only basic Python.
-## Setup Instructions
-Follow these steps to set up the project:
-1. Download or clone this repository to your computer
-2. Open the project folder in your code editor
-3. Make sure the file is saved with a `.py` extension
-## How to Run
-To run the game, follow these steps:
-1. Open the terminal in your code editor or system
-2. Navigate to the folder where the Python file is stored
-3. Run the command:
+Tic Tac Toe Game using Artificial Intelligence
+Project Overview
+
+This project presents a basic Tic Tac Toe game developed in Python, where a user plays against a computer-controlled opponent. The AI is programmed to make optimal decisions using a technique known as the Minimax algorithm. The aim of this project is to demonstrate how Artificial Intelligence can be applied in simple games. Although Tic Tac Toe is a small and familiar game, it effectively shows how a computer can analyze situations and make logical decisions.
+
+Problem Statement
+
+The objective of this project is to build a game in which the computer opponent behaves intelligently rather than making random moves. The key challenge is to design an AI system that evaluates all possible outcomes and consistently selects the best move during gameplay.
+
+Requirements
+
+To execute this project, you need:
+
+Python 3 installed on your system
+A code editor such as Visual Studio Code (recommended but not compulsory)
+
+No additional libraries are required since the program is built using standard Python features.
+
+Setup Instructions
+
+Follow these steps to set up the project on your system:
+
+Download or clone the project repository
+Open the project folder using your preferred code editor
+Ensure that the main file has a .py extension
+How to Run
+
+To start the game:
+
+Open the terminal in your system or code editor
+Navigate to the directory where the Python file is located
+
+Execute the command:
+
 python filename.py
-Replace "filename.py" with the actual name of your file.
-Make sure you run the program in the terminal, because the game requires user input.
-## How to Play
-- The game board will be shown with positions numbered from 1 to 9
-- You will play as **X** and the AI will play as **O**
-- To make a move, type a number between 1 and 9
-- Each number represents a position on the board
-- After your move, the AI will automatically make its move
-- The game continues until someone wins or all positions are filled
-## Game Logic
-The AI in this game is based on the Minimax algorithm. This algorithm works by checking all
-possible future moves and choosing the one that gives the best result.
-- If the AI can win, it will choose that move
-- If the player is about to win, the AI will block it
-- If no one can win, the game will end in a draw
-Because of this logic, the AI always plays perfectly.
-## Features
-- Human vs AI gameplay
-- AI uses Minimax algorithm
-- Input-based control (user enters moves using keyboard)
-- Input validation to avoid wrong entries
-- Clear and simple board display
-## Advantages
-- Helps in understanding basic AI concepts
-- Easy to run and does not require extra libraries
-- Good beginner project for Python and AI
-- Demonstrates decision-making in machines
-## Limitations
-- Runs only in terminal (no graphical interface)
-- Limited to Tic Tac Toe game only
-- No difficulty levels (AI always plays perfectly)
-## Future Improvements
-This project can be improved further by adding:
-- Graphical user interface using tkinter
-- Difficulty levels (easy, medium, hard)
-- Score tracking system
-- Multiplayer mode
-## Purpose of the Project
-The main purpose of this project is to learn how Artificial Intelligence can be applied in
-simple games. It helps in understanding how algorithms can be used to make decisions and
-predict outcomes.
+
+Replace filename.py with the actual name of your file
+
+Make sure the program is run in a terminal since it requires user input during gameplay.
+
+How to Play
+The board positions are numbered from 1 to 9
+The player uses X, while the AI uses O
+Enter a number between 1 and 9 to make your move
+Each number corresponds to a specific position on the board
+After your move, the AI will respond automatically
+The game continues until there is a winner or all positions are filled
+Game Logic
+
+The AI operates using the Minimax algorithm, which evaluates every possible move before making a decision.
+
+If a winning move is available, the AI will choose it
+If the opponent is close to winning, the AI will block that move
+If neither side can win, the game ends in a draw
+
+This ensures that the AI plays optimally and cannot be easily defeated.
+
+Features
+Interactive gameplay between user and AI
+Intelligent decision-making using Minimax
+Command-line based input system
+Validation to prevent invalid moves
+Simple and easy-to-understand board layout
+Advantages
+Introduces fundamental AI concepts in a simple way
+Does not require any external libraries
+Suitable for beginners learning Python and AI
+Demonstrates logical thinking and decision-making by machines
+Limitations
+Limited to a text-based (terminal) interface
+Only supports Tic Tac Toe gameplay
+No option to adjust difficulty level (AI always plays at maximum strength)
+Future Improvements
+
+Possible enhancements for this project include:
+
+Adding a graphical interface using libraries like tkinter
+Introducing difficulty levels for varied gameplay
+Implementing a score tracking system
+Enabling multiplayer mode
+Purpose of the Project
+
+The purpose of this project is to provide a basic understanding of how Artificial Intelligence can be used in games. It helps learners explore how algorithms can evaluate situations, predict outcomes, and make optimal decisions in real-time scenarios.
